@@ -920,6 +920,8 @@ body {
 }
 
 .footer-seporator {
+  align: center;
+  width: 100%;
   color: #ebebf0;
 }
 

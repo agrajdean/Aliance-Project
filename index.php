@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -154,7 +153,7 @@
         <div class="header-content">
           <div class="seporator"></div>
           <h1 class="header-title">
-            Комплексное обеспечение товарами и расходными материалами бизнеса
+            <? echo "Главная страница"; ?>
           </h1>
           <p class="header-text">
             Высокий уровень вовлечения представителей целевой аудитории является
@@ -796,7 +795,7 @@
         <div class="footer-wrapper">
           <div class="footer-legal">
             <p class="footer-copyright">
-              &copy; 2022 «Aliance Production». Все права защищены.
+              &copy; <?php echo date("Y") ?> «Aliance Production». Все права защищены.
             </p>
             <a href="" class="footer-policy">Политики конфиденциальности</a>
           </div>
