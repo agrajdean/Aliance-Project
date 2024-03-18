@@ -18,7 +18,7 @@
     <div class="mobile-menu">
       <ul class="mobile-menu-nav">
         <li class="mobile-menu-nav-item">
-          <a href="/about.html" class="mobile-menu-link">О компании</a>
+          <a href="/about.php" class="mobile-menu-link">О компании</a>
         </li>
         <li class="mobile-menu-nav-item">
           <a href="#" class="mobile-menu-link">Контрактное производство</a>
@@ -113,7 +113,7 @@
       </a>
       <ul class="header-nav">
         <li class="header-nav-item">
-          <a href="/about.html" class="header-nav-link">О компании</a>
+          <a href="/about.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
           <a href="#" class="header-nav-link">Контрактное производство</a>
@@ -154,9 +154,9 @@
         <nav aria-label="Breadcrumb" class="breadcrumb-light">
           <ul>
             <li>
-              <a class="breadcrumb-link-light" href="/index.html">Главная</a>
+              <a class="breadcrumb-link-light" href="/index.php">Главная</a>
             </li>
-            <li><a class="breadcrumb-link-light" href="/blog.html">Блог</a></li>
+            <li><a class="breadcrumb-link-light" href="/blog.php">Блог</a></li>
             <li>
               <span aria-current="page"
                 >Современная методология разработки одухотворила всех
@@ -169,5 +169,5 @@
     </nav>
     <!-- /.subpage-header -->
     <!-- /.navbar -->
-  </body>
-</html>
+
+<?php include_once("footer.php"); ?>

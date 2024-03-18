@@ -113,7 +113,7 @@
       </a>
       <ul class="header-nav">
         <li class="header-nav-item">
-          <a href="/" class="header-nav-link">О компании</a>
+          <a href="./about.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
           <a href="#" class="header-nav-link">Контрактное производство</a>
@@ -122,7 +122,7 @@
           <a href="#" class="header-nav-link">Собственные торговые марки</a>
         </li>
         <li class="header-nav-item">
-          <a href="/blog.html" class="header-nav-link">Новости</a>
+          <a href="/blog.php" class="header-nav-link">Новости</a>
         </li>
         <li class="header-nav-item">
           <a href="#" class="header-nav-link">Контакты</a>
@@ -151,7 +151,7 @@
         <h1 class="header-title">О компании</h1>
         <nav aria-label="Breadcrumb" class="breadcrumb">
           <ul>
-            <li><a class="breadcrumb-link" href="/index.html">Главная</a></li>
+            <li><a class="breadcrumb-link" href="/index.php">Главная</a></li>
             <li><span aria-current="page">О компании</span></li>
           </ul>
         </nav>
@@ -159,5 +159,5 @@
     </nav>
     <!-- /.subpage-header -->
     <!-- /.navbar -->
-  </body>
-</html>
+  
+<?php include_once("footer.php"); ?>

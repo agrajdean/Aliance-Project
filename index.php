@@ -115,7 +115,7 @@
       </a>
       <ul class="header-nav">
         <li class="header-nav-item">
-          <a href="about.html" class="header-nav-link">О компании</a>
+          <a href="about.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
           <a href="#" class="header-nav-link">Контрактное производство</a>
@@ -124,7 +124,7 @@
           <a href="#" class="header-nav-link">Собственные торговые марки</a>
         </li>
         <li class="header-nav-item">
-          <a href="/blog.html" class="header-nav-link">Новости</a>
+          <a href="/blog.php" class="header-nav-link">Новости</a>
         </li>
         <li class="header-nav-item">
           <a href="#" class="header-nav-link">Контакты</a>
@@ -153,7 +153,7 @@
         <div class="header-content">
           <div class="seporator"></div>
           <h1 class="header-title">
-            <? echo "Главная страница"; ?>
+          Комплексное обеспечение товарами и расходными материалами бизнеса
           </h1>
           <p class="header-text">
             Высокий уровень вовлечения представителей целевой аудитории является
@@ -630,4 +630,5 @@
       </div>
     </section>
     <!-- /.section blog -->
+    <?php include_once("footer.php"); ?>
 
