@@ -146,13 +146,17 @@
       <!-- /.logo-link -->
     </nav>
     <header class="page-header <?= $header_style ?>">
-    <div class="container">
-    <div class="seporator"></div>
-    <h1 class="page-header-title"><?= $page_title ?></h1>
-    <u class="breadcrumbs">
-      <li class="breadcrumbs-item">
-        <a href="#" class="breadcrumbs-link"><?= $page_title ?></a>
-      </li>
-    </u>
-  </div>
+    <!-- <img src="img/thumb.png" alt="" class="page-header-thumb" /> -->
+        <div class="container">
+          <div class="seporator"></div>
+          <h1 class="page-header-title"><?= $page_title ?></h1>
+            <ul class="breadcrumbs">
+              <li class="breadcrumbs-item">
+                <a href="index.php" class="breadcrumbs-link">Главная</a>
+              </li>
+              <li class="breadcrumbs-item active">
+                <a href="#" class="breadcrumbs-link"><?= $page_title ?></a>
+              </li>
+            </ul>
+        </div>
     </header>

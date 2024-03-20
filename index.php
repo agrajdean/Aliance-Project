@@ -388,7 +388,7 @@
     </section>
     <!-- /.section production -->
     <?php $block_title = "собственные торговые марки"; 
-    include_once("./template-parts/trademarks-block.php")?>
+    include_once("./template-parts/trademarks-block.php"); ?>
     <!-- /.section trademark --> 
     <section class="section founder">
       <img src="img/founder.jpg" alt="founder" class="founder-photo" />

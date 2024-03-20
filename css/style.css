@@ -283,9 +283,17 @@ body {
 }
 
 .page-header {
-  background-color: #f0f2f5;
-  padding: 3.125rem 0 3.125rem;
-  display: block;
+  padding-top: 9.375rem;
+  padding-bottom: 3.125rem;
+  color: #292d33;
+  position: relative;
+}
+
+.page-header-thumb {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  max-width: 30rem;
 }
 
 .page-header-bg-image {
@@ -293,7 +301,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  color: #000;
+  color: #fff;
 }
 
 .page-header-bg-image::before {
@@ -304,7 +312,8 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(41, 45, 51, 0.6);
+  background-color: #292d33;
+  opacity: 0.2;
 }
 
 .page-header-bg-image .container {
@@ -316,8 +325,7 @@ body {
 }
 
 .page-header-title {
-  font-family: "Bebas Neue";
-  font-size: normal;
+  font-family: "Bebas Neue Book";
   font-weight: 400;
   font-size: 5rem;
   line-height: 120%;
@@ -349,7 +357,7 @@ body {
 }
 
 .breadcrumbs-item:not(:last-child)::after {
-  content: "-";
+  content: "—";
   margin-left: 0.625rem;
 }
 
