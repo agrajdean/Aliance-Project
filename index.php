@@ -115,19 +115,19 @@
       </a>
       <ul class="header-nav">
         <li class="header-nav-item">
-          <a href="about.php" class="header-nav-link">О компании</a>
+          <a href="/about.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контрактное производство</a>
+          <a href="/contracts.php" class="header-nav-link">Контрактное производство</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Собственные торговые марки</a>
+          <a href="/trademarks.php" class="header-nav-link">Собственные торговые марки</a>
         </li>
         <li class="header-nav-item">
           <a href="/blog.php" class="header-nav-link">Новости</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контакты</a>
+          <a href="/contacts.php" class="header-nav-link">Контакты</a>
         </li>
       </ul>
       <div class="header-phone">
@@ -387,39 +387,9 @@
       </div>
     </section>
     <!-- /.section production -->
-    <section class="section trademark">
-      <div class="container">
-        <div class="seporator"></div>
-        <h2 class="section-title">собственные торговые марки</h2>
-        <div class="trademark-cards">
-          <div class="trademark-card">
-            <svg class="trademark-card-logo">
-              <use href="img/sprite.svg#AGTECH"></use>
-            </svg>
-            <h3 class="trademark-card-title">Автохимия AG-Tech</h3>
-            <p class="trademark-card-text">
-              Для современного мира разбавленное изрядной долей эмпатии,
-              рациональное мышление создаёт предпосылки для поставленных
-              обществом задач.
-            </p>
-          </div>
-          <div class="trademark-card">
-            <svg class="trademark-card-logo">
-              <use href="img/sprite.svg#AP"></use>
-            </svg>
-            <h3 class="trademark-card-title">Автохимия AP</h3>
-            <p class="trademark-card-text">
-              Для современного мира разбавленное изрядной долей эмпатии,
-              рациональное мышление создаёт предпосылки для поставленных
-              обществом задач.
-            </p>
-          </div>
-        </div>
-        <!-- /.trademark-cards -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /.section trademark -->
+    <?php $block_title = "собственные торговые марки"; 
+    include_once("./template-parts/trademarks-block.php")?>
+    <!-- /.section trademark --> 
     <section class="section founder">
       <img src="img/founder.jpg" alt="founder" class="founder-photo" />
       <div class="container">
