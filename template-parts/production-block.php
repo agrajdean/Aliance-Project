@@ -16,11 +16,11 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <img
-              src="img/cards/cardim_01.png"
-              alt="Автомобильная химия"
-              class="card-image"
-            />
+            <picture >
+              <source srcset="img/cards/cardim_01.webp" type="image/webp">
+              <source srcset="img/cards/cardim_01.png" type="image/png">
+              <img src="img/cards/cardim_01.png" alt="Автомобильная химия" class="card-image">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -31,11 +31,11 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <img
-              src="img/cards/cardim_02.png"
-              alt="Бытовая химия"
-              class="card-image"
-            />
+            <picture >
+              <source srcset="img/cards/cardim_02.webp" type="image/webp">
+              <source srcset="img/cards/cardim_02.png" type="image/png">
+              <img src="img/cards/cardim_02.png" alt="Бытовая химия" class="card-image">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -45,11 +45,11 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <img
-              src="img/cards/cardim_03.png"
-              alt="Дезинфицирующие средства"
-              class="card-image"
-            />
+            <picture >
+              <source srcset="img/cards/cardim_03.webp" type="image/webp">
+              <source srcset="img/cards/cardim_03.png" type="image/png">
+              <img src="img/cards/cardim_03.png" alt="Дезинфицирующие средства" class="card-image">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -60,11 +60,11 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <img
-              src="img/cards/cardim_03.png"
-              alt="Пищевые аэрозоли"
-              class="card-image"
-            />
+            <picture >
+              <source srcset="img/cards/cardim_03.webp" type="image/webp">
+              <source srcset="img/cards/cardim_03.png" type="image/png">
+              <img src="img/cards/cardim_03.png" alt="Пищевые аэрозоли" class="card-image">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -74,11 +74,11 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <img
-              src="img/cards/cardim_01.png"
-              alt="Косметическая продукция"
-              class="card-image"
-            />
+            <picture >
+              <source srcset="img/cards/cardim_01.webp" type="image/webp">
+              <source srcset="img/cards/cardim_01.png" type="image/png">
+              <img src="img/cards/cardim_01.png" alt="Косметическая продукция" class="card-image">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -89,11 +89,11 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <img
-              src="img/cards/cardim_02.png"
-              alt="Краски аэрозольные"
-              class="card-image"
-            />
+            <picture >
+              <source srcset="img/cards/cardim_02.webp" type="image/webp">
+              <source srcset="img/cards/cardim_02.png" type="image/png">
+              <img src="img/cards/cardim_02.png" alt="Краски аэрозольные" class="card-image">
+            </picture>
           </a>
         </div>
         <!-- /.cards -->
