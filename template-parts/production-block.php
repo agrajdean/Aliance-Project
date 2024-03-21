@@ -75,7 +75,7 @@
             </div>
             <!-- /.card-content -->
             <img
-              src="img/cards/cardim_05.png"
+              src="img/cards/cardim_01.png"
               alt="Косметическая продукция"
               class="card-image"
             />
@@ -90,7 +90,7 @@
             </div>
             <!-- /.card-content -->
             <img
-              src="img/cards/cardim_06.png"
+              src="img/cards/cardim_02.png"
               alt="Краски аэрозольные"
               class="card-image"
             />
