@@ -1,3 +1,7 @@
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap");
+@import url("swiper-bundle.min.css");
+
 * {
   box-sizing: border-box;
 }
@@ -79,8 +83,12 @@ body {
   padding: 0 0.9375rem 0 0.9375rem;
 }
 
-.header-image {
+.no-webp .header-image {
   background-image: url("../img/header-bg.jpg");
+}
+
+.header-image {
+  background-image: url("../img/header-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -297,8 +305,12 @@ body {
   max-width: 30rem;
 }
 
-.page-header-bg-image {
+.no-webp .page-header-bg-image {
   background-image: url("../img/blog/blog-header.jpg");
+}
+
+.page-header-bg-image {
+  background-image: url("../img/blog/blog-header.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
