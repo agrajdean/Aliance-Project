@@ -64,9 +64,10 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-top">
-          <svg class="logo-svg footer-logo">
+        <a href="./"><svg class="logo-svg footer-logo">
             <use href="img/sprite.svg#logo"></use>
-          </svg>
+          </svg></a>
+          
           <a href="tel:+74996861014" class="footer-phone">+7 (999) 686-10-14</a>
           <div class="footer-info">
             <svg class="address-icon" width="24" height="24">
@@ -134,10 +135,10 @@
             <h2 class="footer-menu-title">Собственные марки</h2>
             <ul class="footer-menu-list">
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Автохимия AG-Tech</a>
+                <a href="./trademarks.php" class="footer-menu-link">Автохимия AG-Tech</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Автохимия AP</a>
+                <a href="./trademarks.php" class="footer-menu-link">Автохимия AP</a>
               </li>
             </ul>
           </div>
@@ -145,20 +146,20 @@
             <ul class="footer-menu-list">
               <li class="footer-menu-item">
                 <a
-                  href="about.php"
+                  href="./about.php"
                   class="footer-menu-link footer-menu-link-bold"
                   >О компании</a
                 >
               </li>
               <li class="footer-menu-item">
                 <a
-                  href="/blog.php"
+                  href="./blog.php"
                   class="footer-menu-link footer-menu-link-bold"
                   >Новости</a
                 >
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold"
+                <a href="./contacts.php" class="footer-menu-link footer-menu-link-bold"
                   >Контакты</a
                 >
               </li>
