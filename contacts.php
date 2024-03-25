@@ -5,23 +5,23 @@ include_once("header-page.php"); ?>
 <div class="container">
         <div class="contacts-top">
           <a href="tel:+74996861014" class="contacts-phone">+7 (999) 686-10-14</a>
-          <div class="footer-info">
+          <div class="contacts-info">
             <svg class="address-icon" width="36" height="36">
               <use href="img/sprite.svg#address"></use>
             </svg>
-            <address class="contacts-info">
+            <address class="contacts-text">
               г. Мосвка, Холодильный пер. 4к1с8
             </address>
           </div>
-          <div class="footer-info">
+          <div class="contacts-info">
             <svg class="mail-icon" width="36" height="36">
               <use href="img/sprite.svg#mail"></use>
             </svg>
-            <a href="mailto:a.dragunov@tdaliance.ru" class="contacts-info">
+            <a href="mailto:a.dragunov@tdaliance.ru" class="contacts-text">
               a.dragunov@tdaliance.ru
             </a>
           </div>
-          <div class="footer-social">
+          <div class="contacts-info">
             <a href="#" class="footer-social-link"
               ><svg class="footer-social-icon" width="36" height="36">
                 <use href="img/sprite.svg#vk"></use>

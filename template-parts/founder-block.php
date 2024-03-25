@@ -1,10 +1,10 @@
 <section class="section founder">
-      <picture>
+  <picture>
         <source srcset="img/founder.webp" type="image/webp">
         <source srcset="img/founder.jpg" type="image/jpg">
         <img src="img/founder.jpg" alt="founder" class="founder-photo">
-      </picture>
-      <div class="container">
+  </picture>
+  <div class="container">
         <div class="founder-content-wrapper">
           <div class="founder-content">
             <div class="seporator"></div>
@@ -24,9 +24,9 @@
               выбранный нами инновационный путь в значительной степени
               обусловливает важность дальнейших направлений развития.
             </p>
-            <a href="#" class="button-link">Подробнее о компании</a>
+            <a href="about.php" class="button-link">Подробнее о компании</a>
           </div>
         </div>
-      </div>
-    </section>
+  </div>
+</section>
     
