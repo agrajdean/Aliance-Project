@@ -1017,6 +1017,32 @@ body {
   color: inherit;
 }
 
+.contacts-phone {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 160%;
+  color: #292d33;
+  text-decoration-line: underline;
+}
+
+.contacts-top {
+  padding: 6.25rem 0 6.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts-info {
+  padding: 0 1.5625rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.375rem;
+  line-height: 160%;
+  color: #292d33;
+  text-decoration: none;
+}
+
 .modal {
   opacity: 0;
   visibility: hidden;
