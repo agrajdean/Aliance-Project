@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Новости - Aliance Production</title>
+    <title>Современная методология разработки одухотворила всех причастных</title>
   </head>
   <body>
     <div class="mobile-menu">

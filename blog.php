@@ -2,7 +2,6 @@
 $page_title = "Блог";
 $header_style = "page-header-bg-image";
 include_once("header-page.php");?>
-
 <section class="section blog">
       <div class="container">
         <!-- Основной блок слайдера -->
@@ -10,7 +9,7 @@ include_once("header-page.php");?>
           <!-- Обёртка слайдера -->
           <div class="swiper-wrapper">
             <!-- Слайды -->
-            <a href="#" class="swiper-slide blog-card">
+            <a href="./blog-article.php" class="swiper-slide blog-card">
             <picture >
               <source srcset="img/blog/blog-photo01.webp" type="image/webp">
               <source srcset="img/blog/blog-photo01.jpg" type="image/jpg">

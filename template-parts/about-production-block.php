@@ -2,9 +2,9 @@
 <div class="container">
     <div class="production-content-wrapper">
     <picture>
-        <source srcset="../img/experts.webp" type="image/webp">
-        <source srcset="../img/experts.jpg" type="image/jpg">
-        <img src="../img/experts.jpg" alt="production">
+        <source srcset="./img/experts.webp" type="image/webp">
+        <source srcset="./img/experts.jpg" type="image/jpg">
+        <img src="./img/experts.jpg" alt="production">
       </picture>
       <div class="founder-content">
         <div class="seporator"></div>
@@ -66,9 +66,9 @@
             </ul>
       </div>
       <picture>
-        <source srcset="../img/production.webp" type="image/webp">
-        <source srcset="../img/production.jpg" type="image/jpg">
-        <img src="../img/production.jpg" alt="production">
+        <source srcset="./img/production.webp" type="image/webp">
+        <source srcset="./img/production.jpg" type="image/jpg">
+        <img src="./img/production.jpg" alt="production">
       </picture>
     </div>
   </div>
