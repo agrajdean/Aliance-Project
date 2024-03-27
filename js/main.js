@@ -42,6 +42,9 @@ mMenuToggle.addEventListener("click", (event) => {
   menu.classList.contains("is-open") ? closeMenu() : openMenu();
 });
 
+// SLIDERS
+
+// Steps SLIDER
 const swiperSteps = new Swiper(".steps-slider", {
   speed: 400,
   autoHeight: true,
@@ -66,6 +69,7 @@ const swiperSteps = new Swiper(".steps-slider", {
   },
 });
 
+// Features SLIDER
 const swiper = new Swiper(".features-slider", {
   speed: 400,
   autoHeight: true,
@@ -94,11 +98,45 @@ const swiper = new Swiper(".features-slider", {
   },
 });
 
+// Blog SLIDER
 const swiperBlog = new Swiper(".blog-slider", {
   speed: 400,
   autoHeight: true,
   slidesPerView: 2,
   spaceBetween: 30,
+  navigation: {
+    nextEl: ".blog-button-next",
+    prevEl: ".blog-button-prev",
+  },
+  breakpoints: {
+    // when window width is >= 295px
+    295: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 576px
+    576: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 2,
+    },
+    // when window width is >= 1024px
+    1024: {
+      slidesPerView: 2,
+    },
+    // when window width is >= 1200px
+    1200: {
+      slidesPerView: 2,
+    },
+  },
+});
+
+// Research SLIDER
+const swiperResearch = new Swiper(".research-slider", {
+  speed: 800,
+  autoHeight: true,
+  slidesPerView: 2.2,
   navigation: {
     nextEl: ".blog-button-next",
     prevEl: ".blog-button-prev",

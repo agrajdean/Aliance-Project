@@ -15,6 +15,7 @@
       </div>
       
     </div>
+    <?php include_once("./template-parts/features-slider.php");?>
     <div class="production-content-wrapper">
       <div class="founder-content">
         <div class="seporator"></div>
