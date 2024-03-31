@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Автомобильная химия</title>
+    <title>Автохимия AG-Tech</title>
   </head>
   <body>
     <div class="mobile-menu">
@@ -148,16 +148,16 @@
     <header class="page-header page-header-bg-image">
         <div class="container">
           <div class="seporator"></div>
-          <h1 class="page-header-title">Автомобильная химия</h1>
+          <h1 class="page-header-title">Автохимия AG-Tech</h1>
             <ul class="breadcrumbs">
               <li class="breadcrumbs-item">
                 <a href="index.php" class="breadcrumbs-link">Главная</a>
               </li>
               <li class="breadcrumbs-item">
-                <a href="contracts.php" class="breadcrumbs-link">Контрактное производство</a>
+                <a href="trademarks.php" class="breadcrumbs-link">Собственные торговые марки</a>
               </li>
               <li class="breadcrumbs-item active">
-                <a href="auto-chem.php" class="breadcrumbs-link">Автомобильная химия</a>
+                <a href="ag-tech.php" class="breadcrumbs-link">Автохимия AG-Tech</a>
               </li>
             </ul>
         </div>

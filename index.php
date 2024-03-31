@@ -305,7 +305,7 @@
           <!-- Обёртка слайдера -->
           <div class="swiper-wrapper">
             <!-- Слайды -->
-            <a href="/blog.php" class="swiper-slide blog-card">
+            <a href="/blog-article.php" class="swiper-slide blog-card">
               <img
                 src="img/blog/blog-photo01.jpg"
                 alt="blog-photo01"

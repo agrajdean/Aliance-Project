@@ -8,8 +8,9 @@
       }  
       ?>
         <div class="trademark-cards">
+        <a href="ag-tech.php">
           <div class="trademark-card">
-            <svg class="trademark-card-logo">
+              <svg class="trademark-card-logo">
               <use href="img/sprite.svg#AGTECH"></use>
             </svg>
             <h3 class="trademark-card-title">Автохимия AG-Tech</h3>
@@ -19,6 +20,8 @@
               обществом задач.
             </p>
           </div>
+          </a>
+          <a href="#">
           <div class="trademark-card">
             <svg class="trademark-card-logo">
               <use href="img/sprite.svg#AP"></use>
@@ -30,6 +33,8 @@
               обществом задач.
             </p>
           </div>
+          </a>
+          
         </div>
         <!-- /.trademark-cards -->
       </div>

@@ -113,19 +113,19 @@
       </a>
       <ul class="header-nav">
         <li class="header-nav-item">
-          <a href="/about.php" class="header-nav-link">О компании</a>
+          <a href="./about.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контрактное производство</a>
+          <a href="./contracts.php" class="header-nav-link">Контрактное производство</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Собственные торговые марки</a>
+          <a href="./trademarks.php" class="header-nav-link">Собственные торговые марки</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Новости</a>
+          <a href="./blog.php" class="header-nav-link">Новости</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контакты</a>
+          <a href="./contacts.php" class="header-nav-link">Контакты</a>
         </li>
       </ul>
       <div class="header-phone">
@@ -145,29 +145,22 @@
       </button>
       <!-- /.logo-link -->
     </nav>
-    <nav class="subpage-header-blog">
-      <div class="container">
-        <div class="seporator"></div>
-        <h1 class="subpage-header-blog-title">
-          Современная методология разработки одухотворила всех причастных
-        </h1>
-        <nav aria-label="Breadcrumb" class="breadcrumb-light">
-          <ul>
-            <li>
-              <a class="breadcrumb-link-light" href="/index.php">Главная</a>
-            </li>
-            <li><a class="breadcrumb-link-light" href="/blog.php">Блог</a></li>
-            <li>
-              <span aria-current="page"
-                >Современная методология разработки одухотворила всех
-                причастных</span
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </nav>
-    <!-- /.subpage-header -->
-    <!-- /.navbar -->
+    <header class="page-header page-header-bg-image">
+        <div class="container">
+          <div class="seporator"></div>
+          <h1 class="page-header-title">Современная методология разработки одухотворила всех причастных</h1>
+            <ul class="breadcrumbs">
+              <li class="breadcrumbs-item">
+                <a href="index.php" class="breadcrumbs-link">Главная</a>
+              </li>
+              <li class="breadcrumbs-item">
+                <a href="blog.php" class="breadcrumbs-link">Блог</a>
+              </li>
+              <li class="breadcrumbs-item active">
+                <a href="#" class="breadcrumbs-link">Современная методология разработки одухотворила всех причастных</a>
+              </li>
+            </ul>
+        </div>
+    </header>
 
 <?php include_once("footer.php"); ?>

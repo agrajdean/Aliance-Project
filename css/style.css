@@ -591,7 +591,6 @@ body {
 }
 
 .trademark-cards {
-  display: flex;
 }
 
 .trademark-card {
@@ -751,6 +750,12 @@ body {
 
 .blog {
   margin-top: 6.25rem;
+}
+
+.blog-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.875rem;
 }
 
 .blog-card {
